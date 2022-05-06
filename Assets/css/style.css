@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:  Poppins;
 }
+
 #topSection{
     background-image: url(../images/moving\ 1.png);
     
@@ -121,6 +123,7 @@ nav > ul>li{
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 0;
+    
   }
   .Footer span{
     color: #FFAC12;
@@ -136,10 +139,34 @@ nav > ul>li{
   .Footer > .bottomMost{
     display: flex;
     justify-content:space-evenly;
-  
+      
   }
   .Footer > .bottomMost li{
     padding: 10px;
     list-style: none;
     color: rgb(121, 122, 122);
   }
+  .SocialMedia{
+      display: inherit;
+      align-items: center;
+  }
+
+  .fa {
+    padding: 25px;
+    font-size: 40px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .SocialMedia .fa:hover {
+      opacity: 0.8;
+      color: red;
+      font-size: 50px;
+  }
+  
+  .SocialMedia>.fa-facebook,.fa-instagram ,.fa-twitter {
+    color: white;
+  }
+
+
