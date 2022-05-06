@@ -68,3 +68,38 @@ nav > ul>li{
     margin-bottom: 1vh;
     font-size: 4vh;
 }
+#cutTheHustle{
+    display: flex;
+    margin-top: 20px;
+  }
+  #cutTheHustle img{
+    width: 50vw;
+    height: auto;
+    margin-right: 50px;
+  }
+  #cutTheHustle >#HustleText{
+    padding-top: 15%;
+  }
+  #cutTheHustle >#HustleText>.descr{
+    color: rgb(14, 13, 13, 0.7);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #cutTheHustle >#HustleText button{
+    background-color: black;
+    color: #FFAC12;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 0px 10px 0px 0px;
+    
+  }
+  .line{
+    height: 2px;
+    background-image: linear-gradient(to right,yellow,black);
+    width: 100px;
+    margin-bottom: 15px;
+  
+  }
