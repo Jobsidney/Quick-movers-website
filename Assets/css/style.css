@@ -1,3 +1,70 @@
-body{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+}
+#topSection{
+    background-image: url(../images/moving\ 1.png);
+    
+    background-size:cover;
+    height: 130vh;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    color: white;
+}
+nav > ul{
+    margin-top: 20px;
+    display: flex;
+    float: right;
+    clear: left;margin-right: 30px;
+    color: white;
+    
+}
+nav > ul>li{
+    
+    padding: 15px;
+    margin-left: 20px;
+    font-size: larger;
+    list-style: none;
+}
+#login1{
+    background-color: #FFAC12;
+    text-align: center;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 4px;
+}
+#login2{
+    background-color: #070707;
+    text-align: center;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 4px;
+    color: #FFAC12;
+}
+#topSection > #topDescription{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12%;
+    clear: right;
+}
+#topSection > #topDescription > #div1{
+
+    color: #FFAC12;
+    /* font-weight: bold; */
+    margin-left: 2%;
+    margin-bottom: 30px;
+   
+    font-size: 7vh;
+} 
+
+#topSection > #topDescription > #div2{
+    color: white;
+    font-weight:400;
+    margin-left: 2%;
+    margin-bottom: 1vh;
+    font-size: 4vh;
 }
