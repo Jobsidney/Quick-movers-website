@@ -21,6 +21,7 @@ nav > ul{
     display: flex;
     float: right;
     clear: left;
+    text-decoration: none;
     margin-right: 30px;
     
     color: white;
@@ -32,6 +33,10 @@ nav > ul>li{
     margin-left: 20px;
     font-size: larger;
     list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 #login1{
     background-color: #FFAC12;

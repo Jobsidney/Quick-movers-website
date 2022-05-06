@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Poppins;
+    
+}
+body{
+    background-color: rgb(162, 164, 167);   
+}
+
+#heading{
+    height: 150px;
+    background-color: rgb(15, 15, 15);
+    
+}
+#heading nav>ul{
+    
+    display: flex;
+    flex-direction: row;
+    float: right;
+    clear: both;
+}
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(8, 8, 8);
+    color: rgb(20, 20, 20);
+    opacity: 0.2;
+    
+  }
+
+
+.material-icons{
+    font-size: 1px;
+    color: rgb(73, 71, 71);
+  }
+    
+    
+    .Footer{
+      background-color: black;
+      height: 10%;
+      color: white;
+      padding: 30px;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-bottom: 0;
+      margin-top: 8%;
+      
+    }
+    .Footer #footerHeading{
+      font-size: 30px;
+    }
+    .Footer section{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .Footer> section button, #navB{
+        background-color:#FFAC12;
+        color: #050505;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: none;
+        border-radius: 0px 10px 0px 0px;
+        
+      }
+    .Footer span{
+      color: #FFAC12;
+      font-weight: bold;
+      margin-left: 60px;
+    }
+    .Footer hr{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      background-color: rgb(252, 248, 250);
+      color: aliceblue;font-weight: 0;
+      
+    }
+    .Footer > .bottomMost{
+      display: flex;
+      justify-content:space-evenly;
+        
+    }
+    .Footer > .bottomMost li, li{
+      padding: 10px;
+      list-style: none;
+      color: rgb(121, 122, 122);
+    }
+    .SocialMedia{
+        display: inherit;
+        align-items: center;
+    }
+  
+    .fa {
+      padding: 25px;
+      font-size: 40px;
+      width: 0px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    .SocialMedia .fa:hover {
+        opacity: 0.8;
+        color: red;
+        font-size: 50px;
+    }
+    
+    .SocialMedia>.fa-facebook,.fa-instagram ,.fa-twitter {
+      color: white;
+    }
+    
+  
