@@ -241,7 +241,9 @@ a{
     margin-top: 5%;
     margin-bottom: 5%;
     background-color: rgb(252, 248, 250);
-    color: aliceblue;font-weight: 0;
+    color: aliceblue;
+    font-weight: 0;
+    opacity: 0.2;
     
   }
   .Footer > .bottomMost{
