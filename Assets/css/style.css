@@ -302,6 +302,7 @@ nav > ul{
     padding-top: 5px;
     
     color: white;
+    /* helps make navigation responsive*/
     
 }
 nav > ul>li{
@@ -391,3 +392,121 @@ nav > ul>li{
 }
 
 }
+
+
+/* tablet */
+
+
+@media only screen and (min-width:610px) {
+  nav{
+    margin-left: 0px;
+}
+nav > ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 2%;
+    margin-left: 0px;
+    
+    color: white;
+    /* helps make navigation responsive*/
+    
+}
+nav > ul>li{
+    font-size: large;
+    
+}
+
+#login1{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#login2{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+
+}
+#topSection > #topDescription{
+    padding-top: 12%;
+    clear: right;
+}
+#topSection > #topDescription > #div1{
+    margin-bottom: 30px;
+   
+    font-size: 4vh;
+} 
+
+#topSection > #topDescription > #div2{
+   
+   
+    margin-bottom: 1px;
+    font-size: 3vh;
+    padding-bottom: 1vh;
+    padding-left: 2px;
+}
+#cutTheHustle h1{
+  font-size: large;
+  font-family: Adamina;
+}
+#cutTheHustle >#HustleText>.descr{
+  margin-bottom: 20px;
+  font-size: small;
+}
+#cutTheHustle >#HustleText button{
+  
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+  
+}
+.topMovers{
+  background-color: rgb(169, 172, 171);
+  padding-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  display: flex;
+ 
+
+}
+.topMovers .line{
+  margin-left: 15%;
+}
+.topMovers h1{
+font-size: xx-large;
+font-family: Adamina;
+margin-bottom: 7%;
+margin-left: 15%;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.singleCard{
+  margin-bottom: 15px;
+  margin-left: 30%;
+}
+.material-icons{
+  font-size: 30px;
+  color: rgb(73, 71, 71);
+}
+.Footer #footerHeading{
+  font-size: 30px;
+  flex-direction: column;
+}
+
+}
+
+
