@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:  Poppins;
+    font-family:  "Poppins";
     
 }
 body{
-    background-color: rgb(162, 164, 167);   
+    background-color:rgb(169, 172, 171);    
 }
 
 
@@ -63,7 +63,9 @@ hr{
     padding-left: 30px;
     padding-right: 30px;
     border: none;
-    height: 15%;
+    height: 10%;
+    margin: 12px;
+    padding: 5px;
     border-radius: 0px 10px 0px 0px;
     
   }
@@ -88,7 +90,7 @@ hr{
     
   }
   table{
-    background-color: rgb(224, 221, 221);
+    background-color: rgb(233, 227, 227);
     /* border-radius: 0px 0px 10px 10px; */
   }
   #right{
@@ -96,7 +98,7 @@ hr{
     margin-left: 0;
   }
   #left{
-    border-radius: 0px 0px 0px 15px;
+    border-radius: 0px 0px 0px 10px;
   }
   td{padding: 8px;
     margin-top: 0;
@@ -108,10 +110,39 @@ hr{
     margin-top: 10px;
     padding: 8px;
     background-color: white;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
   }
+  .tableImage{
+    display: flex;
+  }
+  .tableImage > #tableCard{
+    margin: 10px;
+  }
+
+.tableImage > #tableCard>table,tr,td,caption>.capt{
+  width:fit-content;
+    text-align: start;
+   
+}
+.tableImage > #tableCard>table>.capt{
+  width: fit-content;
+  border: none;
+  padding: 0;
+  border-radius: 30px 30px 0px 0px;
+}
+
+ 
   #leftRight{
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .line{
+    margin-top: 13%;
+    height: 3px;
+    background-image: linear-gradient(to right,yellow,black);
+    width: 130px;
+    margin-bottom: 15px;
+  
   }
  
 
