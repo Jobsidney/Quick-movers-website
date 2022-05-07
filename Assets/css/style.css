@@ -301,6 +301,7 @@ nav > ul{
     margin-left: 0px;
     
     color: white;
+    /* helps make navigation responsive*/
     
 }
 nav > ul>li{
