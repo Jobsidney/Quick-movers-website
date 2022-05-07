@@ -67,6 +67,53 @@ hr{
     border-radius: 0px 10px 0px 0px;
     
   }
+  .rectangle{
+    max-width: 620px;
+    min-width: 620;
+    display: flex;
+    flex-wrap: nowrap;
+  
+  }
+  .rectangle img{
+    width: 70px;
+    min-width: 70px;
+    padding: 8px;
+
+  }
+
+  table,tr,td,caption{
+    width: 580px;
+    text-align: start;
+    border: none;
+    
+  }
+  table{
+    background-color: rgb(224, 221, 221);
+    /* border-radius: 0px 0px 10px 10px; */
+  }
+  #right{
+    border-radius: 0px 0px 15px 0px;
+    margin-left: 0;
+  }
+  #left{
+    border-radius: 0px 0px 0px 15px;
+  }
+  td{padding: 8px;
+    margin-top: 0;
+    text-align: center;
+    border: none;
+    background-color: white;
+  }
+  caption{
+    margin-top: 10px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+  }
+  #leftRight{
+    border-radius: 0px 0px 15px 15px;
+  }
+ 
 
 .material-icons{
     font-size: 1px;
