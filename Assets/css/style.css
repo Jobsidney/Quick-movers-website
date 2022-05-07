@@ -287,7 +287,7 @@ a{
 
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
   nav{
     margin-left: 0px;
 }
@@ -330,14 +330,14 @@ nav > ul>li{
 #topSection > #topDescription > #div1{
     margin-bottom: 30px;
    
-    font-size: 4vh;
+    font-size: 5vh;
 } 
 
 #topSection > #topDescription > #div2{
    
    
     margin-bottom: 1px;
-    font-size: 3vh;
+    font-size: 4vh;
     padding-bottom: 1vh;
     padding-left: 2px;
 }
