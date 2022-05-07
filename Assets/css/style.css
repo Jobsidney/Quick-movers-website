@@ -296,9 +296,10 @@ nav > ul{
     display: flex;
     justify-content: end;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 5px;
     margin-top: 2%;
     margin-left: 0px;
+    padding-top: 5px;
     
     color: white;
     
@@ -306,8 +307,8 @@ nav > ul{
 nav > ul>li{
     
     padding: 0;
-    margin-left: 20px;
-    font-size: small;
+    margin-left: 10px;
+    font-size: smaller;
     list-style: none;
 }
 
@@ -320,7 +321,7 @@ nav > ul>li{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 5px;
+    margin-right: 0px;
 
 }
 #topSection > #topDescription{
