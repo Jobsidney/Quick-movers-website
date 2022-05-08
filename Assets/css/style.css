@@ -210,8 +210,9 @@ a{
     height: 6vh;
     background-color: white;
     padding-top: 15px;
-    padding-left: 5px;
+    padding-left: 20px;
     padding-bottom: 5px;
+    font-family: Adamina;
   }
 .material-icons{
   font-size: 1px;
