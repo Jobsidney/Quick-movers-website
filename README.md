@@ -93,7 +93,7 @@ nav > ul{
 ## Author
 - Jobsidney
 - [<img style="border: 1px solid white;" src="./Assets/images/job.png">](https://github.com/Jobsidney/)
-
+***
 ## MIT
 ### The MIT License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
