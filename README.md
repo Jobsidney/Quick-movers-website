@@ -9,7 +9,7 @@ Here is a working demonstration of this Web page: https://jobsidney.github.io/Qu
 ## The Site
 ## [Istallation](hhttps://jobsidney.github.io/Quick-movers-website/) 
 
-<img src="../QuickMovers/Assets/images/page1.png">
+<img src="./Assets/images/page1.png">
 
 ### How To Contribute
 
