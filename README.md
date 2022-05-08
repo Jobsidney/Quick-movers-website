@@ -9,8 +9,13 @@ Quick Movers is a website that helps people locate places they would like to liv
 Here is a working demonstration of this Web page: https://jobsidney.github.io/Quick-movers-website/
 
 ***
-## The Site
+## The Site:
 ## [Installation](hhttps://jobsidney.github.io/Quick-movers-website/) 
+Click on the provided link that will direct you to the website
+#### requirements:
+- chrome browser/any other browser
+- any type of computer(phone of laptop)
+- Internet connection
 
 <img src="./Assets/images/page1.png">
 
