@@ -121,7 +121,7 @@ a{
   
   }
   .topMovers{
-    background-color: rgb(169, 172, 171);
+    background-color: rgba(220, 245, 245, 255);
     padding-top: 50px;
     margin-top: 20px;
     margin-bottom: 0;
@@ -249,7 +249,7 @@ a{
   }
   .Footer > .bottomMost{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
       
   }
   .Footer > .bottomMost li{
@@ -264,8 +264,8 @@ a{
   }
 
   .fa {
-    padding: 25px;
-    font-size: 40px;
+    padding: 13px;
+    font-size: 50px;
     width: 0px;
     text-align: center;
     text-decoration: none;
@@ -362,7 +362,7 @@ nav > ul>li{
   
 }
 .topMovers{
-  background-color: rgb(169, 172, 171);
+  background-color: rgba(220, 245, 245, 255);
   padding-top: 50px;
   margin-top: 20px;
   margin-bottom: 0;
@@ -485,7 +485,7 @@ nav > ul{
   
 }
 .topMovers{
-  background-color: rgb(169, 172, 171);
+  background-color: rgba(220, 245, 245, 255);
   padding-top: 50px;
   margin-top: 20px;
   margin-bottom: 0;
@@ -510,8 +510,8 @@ margin-left: 15%;
     align-items: center;
     margin-top: 10px;
     padding-bottom: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 1%;
+    margin-right: 17%;
 }
 .singleCard{
   margin-bottom: 15px;
