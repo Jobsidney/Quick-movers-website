@@ -290,16 +290,17 @@ a{
 
 @media only screen and (max-width:800px) {
   nav{
-    margin-left: 0px;
+    margin-left: 2px;
+    margin-right: 0;
 }
 nav > ul{
     margin-top: 20px;
     display: flex;
     justify-content: end;
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-top: 2%;
-    margin-left: 0px;
+    margin-left: 2px;
     padding-top: 5px;
     
     color: white;
@@ -309,13 +310,10 @@ nav > ul{
 nav > ul>li{
     
     padding: 0;
-<<<<<<< HEAD
     margin-left: 10px;
     font-size: smaller;
-=======
     margin-left: 20px;
     font-size: xx-small;
->>>>>>> 29bf6a3ae546b7f99a413c842b56aba73878953f
     list-style: none;
 }
 
@@ -323,12 +321,14 @@ nav > ul>li{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: smaller;
 }
 #login2{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 0px;
+    font-size: smaller;
 
 }
 #topSection > #topDescription{
@@ -434,7 +434,7 @@ nav > ul{
     text-decoration: none;
     margin-right: 20px;
     margin-top: 2%;
-    margin-left: 0px;
+    margin-left: 2px;
     
     color: white;
     /* helps make navigation responsive*/
