@@ -297,9 +297,9 @@ nav > ul{
     display: flex;
     justify-content: end;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-top: 2%;
-    margin-left: 0px;
+    margin-left: 2px;
     
     color: white;
     /* helps make navigation responsive*/
@@ -317,12 +317,14 @@ nav > ul>li{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: smaller;
 }
 #login2{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 5px;
+    font-size: smaller;
 
 }
 #topSection > #topDescription{
@@ -418,15 +420,15 @@ color: white;
 
 @media only screen and (max-width:800px) {
   nav{
-    margin-left: 0px;
-    margin-right: 2%;
+    margin-left: 1px;
+    margin-right: 1%;
 }
 nav > ul{
     margin-top: 20px;
     display: flex;
     justify-content: end;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-top: 2%;
     margin-left: 0px;
     
