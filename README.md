@@ -1,19 +1,22 @@
 # QUICK MOVERS
 
 ***
+## About/Description
+Quick Movers is a website that helps people locate places they would like to live and have modern houses. The website makes the process of moving in and out to new places much easier and of high quality because of the classic houses that we provide. We can also custom any house Of your choice. The cost fo each house is affordable and of great quality example:
+<img src="./Assets/images/Property%20House.png">
 
 ## web-Demo
 Here is a working demonstration of this Web page: https://jobsidney.github.io/Quick-movers-website/
 
 ***
 ## The Site
-## [Istallation](hhttps://jobsidney.github.io/Quick-movers-website/) 
+## [Installation](hhttps://jobsidney.github.io/Quick-movers-website/) 
 
 <img src="./Assets/images/page1.png">
 
 ### How To Contribute
 
-The process below will enable you make contribution to this website for a better view functionality
+The process below will enable you make contribution to this website for a better view and functionality
 
 - Fork the repo
 - Create a new branch (`git checkout -b NewFeature`).
@@ -40,7 +43,7 @@ The process below will enable you make contribution to this website for a better
 - Add drop down menu
   
 ### Program Sample
-#### Html
+#### Html code
 ```Html
   <!--CUT THE HUSTLE-->
         <section id="cutTheHustle">
@@ -63,7 +66,7 @@ The process below will enable you make contribution to this website for a better
 ```
 
 #### Css
-    Example of Css class (Navi2)
+    Example of Css with media query for responsiveness
 ```Css
 /* tablet */
 
@@ -88,5 +91,6 @@ nav > ul{
 }
 ```
 ## Author
-- [Jobsidney](https://github.com/Jobsidney/)
+- Jobsidney
+- [<img src="./Assets/images/job.png">](https://github.com/Jobsidney/)
   
