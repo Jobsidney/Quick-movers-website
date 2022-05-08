@@ -309,7 +309,7 @@ nav > ul>li{
     
     padding: 0;
     margin-left: 20px;
-    font-size: small;
+    font-size: xx-small;
     list-style: none;
 }
 
@@ -419,6 +419,7 @@ color: white;
 @media only screen and (max-width:800px) {
   nav{
     margin-left: 0px;
+    margin-right: 2%;
 }
 nav > ul{
     margin-top: 20px;
@@ -433,10 +434,7 @@ nav > ul{
     /* helps make navigation responsive*/
     
 }
-nav > ul>li{
-    font-size: large;
-    
-}
+
 
 #login1{
     padding: 5px;
