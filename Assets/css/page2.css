@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color:rgb(169, 172, 171);    
+    background-color:rgb(148, 150, 150);    
 }
 
 
@@ -56,6 +56,15 @@ hr{
     border: 1px solid rgb(187, 185, 185);
     border-radius: 10px;
 }
+.userInputBox{
+  display: inherit;
+  flex-direction: column;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: space-between;
+  width: 300px;
+}
 .centered .userInput  button{
     background-color: black;
     color: #FFAC12;
@@ -74,6 +83,7 @@ hr{
     min-width: 620;
     display: flex;
     flex-wrap: nowrap;
+    
   
   }
   .rectangle img{
@@ -82,9 +92,21 @@ hr{
     padding: 8px;
 
   }
+  .Features{
+    padding-left: 10%;
+    align-items: center;
+  }
 
-  table,tr,td,caption{
-    width: 580px;
+  table,tr,caption{
+    width: auto;
+    min-width: 300px;
+    text-align: start;
+    border: none;
+    
+  }
+  .tableImage>.tableCard> table,tr,caption{
+    width: auto;
+    
     text-align: start;
     border: none;
     
@@ -114,21 +136,40 @@ hr{
   }
   .tableImage{
     display: flex;
+    flex-wrap: wrap;
   }
   .tableImage > #tableCard{
     margin: 10px;
   }
 
-.tableImage > #tableCard>table,tr,td,caption>.capt{
+.tableImage > #tableCard>table>tr>td>caption>.capt{
   width:fit-content;
     text-align: start;
    
 }
-.tableImage > #tableCard>table>.capt{
+.tableImage > #tableCard>table,canvas{
   width: fit-content;
   border: none;
   padding: 0;
+  min-width: none;
+}
+#tableCard>table,.capt{
+  min-width: 200px;
+  width: fit-content;
+
+}
+.tableImage > #tableCard>table>.capt{
+  border: none;
+  padding: 0;
   border-radius: 30px 30px 0px 0px;
+  }
+
+.tableImage > #tableCard>table>.capt>img{
+  width: 300px;
+  border: none;
+  padding: 0;
+  border-radius: 30px 30px 0px 0px;
+  min-width: none;
 }
 
  
@@ -234,7 +275,7 @@ hr{
 
 
     /* MOBILE RESPONSIVE */
-    @media only screen and (max-width:750px) {
+    @media only screen and (max-width:630px) {
 
       #heading{
         height:fit-content;
@@ -268,6 +309,9 @@ hr{
     
     
   }
+  .Footer #footerHeading{
+    font-size: medium;
+  }
   .Footer> section button,#navB{
     display: flex;
     flex-wrap: nowrap;
@@ -276,6 +320,156 @@ hr{
     
     
   }
-      
-    }
+  .Footer > .bottomMost li, li{
+    padding: 10px;
+    list-style: none;
+    font-size: x-small;
+    color: rgb(121, 122, 122);
+  }
+  .fa {
+    padding: 15px;
+    font-size: 40px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .centered{
+    padding: 4%;
+    padding-right: 3%;
+}
+.centered .userInput{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.centered .userInput .userInputBox{
+  margin-bottom: 10%;
+
+}
+
+.centered .userInput div>img{
+    max-width: 350px;
+    padding-right: 10px;
+}
+.centered .userInput div>input{
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #050505;
+  border: 1px solid rgb(187, 185, 185);
+  border-radius: 10px;
+}
+.centered .userInput  button{
+  background-color: black;
+  color: #FFAC12;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  height: 10%;
+  margin: 12px;
+  padding: 5px;
+  border-radius: 0px 10px 0px 0px;
+  
+}
+.rectangle{
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  max-width: 300px;
+  min-width: 620;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.rectangle img{
+  width: 20%;
+  min-width: 70px;
+  padding: 8px;
+
+}
+
+table,tr,td,caption{
+  width: 100px;
+  text-align: start;
+  border: none;
+  
+  
+}
+table{
+  background-color: rgb(233, 227, 227);
+  /* border-radius: 0px 0px 10px 10px; */
+}
+#right{
+  border-radius: 0px 0px 15px 0px;
+  margin-left: 0;
+}
+#left{
+  border-radius: 0px 0px 0px 10px;
+}
+td{padding: 8px;
+  margin-top: 0;
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+caption>img{
+  
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  min-width: 350px;
+
+}
+caption{
+  margin-top: 10px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  max-width: fit-content;
+  
+}
+.tableImage{
+  display: flex;
+  flex-direction: column;
+}
+.tableImage > #tableCard{
+  margin: 10px;
+}
+#tableCard>table,.capt{
+  min-width: 200px;
+  width: fit-content;
+
+}
+
+.tableImage > #tableCard>table,tr,td,caption>.capt{
+width:fit-content;
+  text-align: start;
+ 
+}
+.tableImage > #tableCard>table>.capt{
+width: 700px;
+border: none;
+padding: 0;
+border-radius: 30px 30px 0px 0px;
+}
+
+.material-icons{
+font-size: 2%;
+padding:0;
+margin: 0;
+}
+
+.line{
+  margin-top: 13%;
+  height: 3px;
+  background-image: linear-gradient(to right,yellow,black);
+  width: 130px;
+  margin-bottom: 15px;
+
+}}
   
