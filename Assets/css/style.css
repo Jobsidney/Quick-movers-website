@@ -260,6 +260,7 @@ a{
   .SocialMedia{
       display: inherit;
       align-items: center;
+      margin-left: 5%;
   }
 
   .fa {
@@ -390,6 +391,25 @@ nav > ul>li{
   font-size: 30px;
   flex-direction: column;
 }
+.SocialMedia{
+  margin-left: 10px;
+}
+.SocialMedia .fa:hover {
+  opacity: 0.8;
+  color: red;
+  font-size: 30px;
+}
+
+.SocialMedia>.fa-facebook,.fa-instagram ,.fa-twitter {
+color: white;
+}
+.Footer > .bottomMost li{
+  padding: 10px;
+  padding-right: 0;
+  list-style: none;
+  font-size:x-small;
+  color: rgb(121, 122, 122);
+}
 
 }
 
@@ -397,7 +417,7 @@ nav > ul>li{
 /* tablet */
 
 
-@media only screen and (min-width:610px) {
+@media only screen and (max-width:800px) {
   nav{
     margin-left: 0px;
 }

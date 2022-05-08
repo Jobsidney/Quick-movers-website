@@ -230,5 +230,52 @@ hr{
     .SocialMedia>.fa-facebook,.fa-instagram ,.fa-twitter {
       color: white;
     }
+
+
+
+    /* MOBILE RESPONSIVE */
+    @media only screen and (max-width:750px) {
+
+      #heading{
+        height:fit-content;
+        background-color: rgb(15, 15, 15);
+        font-size: smaller;
+        margin-bottom: 0px;
+        
+    }
+    #heading nav>ul{
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-right: 10%;
+      font-size: x-small;
+  }
+  #heading>div{
+    height:fit-content;
+    background-color: rgb(15, 15, 15);
+    font-size: xx-small;
     
+}
+#heading>div h1{
+  font-size: large;
+  margin-bottom: 2px;
+}
+  .Footer> section button, #navB{
+    
+   
+    padding-right: 10px;
+    font-size: x-small;
+    width: 100px;
+    
+    
+  }
+  .Footer> section button,#navB{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 30px;
+    
+    
+  }
+      
+    }
   
