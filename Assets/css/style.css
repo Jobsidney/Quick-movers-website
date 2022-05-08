@@ -298,10 +298,16 @@ nav > ul{
     display: flex;
     justify-content: end;
     text-decoration: none;
+<<<<<<< HEAD
     margin-right: 10px;
     margin-top: 2%;
     margin-left: 2px;
     padding-top: 5px;
+=======
+    margin-right: 0px;
+    margin-top: 2%;
+    margin-left: 2px;
+>>>>>>> adfb232635082da93912627484bc1891f0f91509
     
     color: white;
     /* helps make navigation responsive*/
@@ -327,7 +333,11 @@ nav > ul>li{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+<<<<<<< HEAD
     margin-right: 0px;
+=======
+    margin-right: 5px;
+>>>>>>> adfb232635082da93912627484bc1891f0f91509
     font-size: smaller;
 
 }
@@ -424,15 +434,15 @@ color: white;
 
 @media only screen and (max-width:800px) {
   nav{
-    margin-left: 0px;
-    margin-right: 2%;
+    margin-left: 1px;
+    margin-right: 1%;
 }
 nav > ul{
     margin-top: 20px;
     display: flex;
     justify-content: end;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-top: 2%;
     margin-left: 2px;
     
