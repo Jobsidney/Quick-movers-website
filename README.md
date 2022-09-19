@@ -5,7 +5,7 @@
 Quick Movers is a website that helps people locate places they would like to live and have modern houses. The website makes the process of moving in and out to new places much easier and of high quality because of the classic houses that we provide. We can also custom any house Of your choice. The cost fo each house is affordable and of great quality example:
 <img src="./Assets/images/Property%20House.png">
 
-## web-Demo
+## Web-Demo
 Here is a working demonstration of this Web page: https://jobsidney.github.io/Quick-movers-website/
 
 ***
